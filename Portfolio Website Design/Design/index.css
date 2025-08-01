@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --black-color: #333333;
+    --primary-pink:#FF5588;
+}
+
+/*Color*/
+
+.black-color{
+    color: var(--black-color);
+}
+
+.pink-color{
+    color:var(--primary-pink);
+}
+
+
+/*Fonts*/
+.inter{
+    font-family: Inter;
+}
+
+.fs-64{
+    font-size: 64px;
+}
+
+/*others*/
+
+.profile-image{
+    height: 320px;
+    width: 320px;
+}
+
+.profile-imaget{
+    height: 80px;
+    width: 80px;
+}
+
+.social-icons{
+    height: 24px;
+    width: 24px;
+}
+
+.--custom-borderb{
+    border:1px solid;
+    border-color: var(--black-color);
+    border-radius: 16px;
+}
+
+.--custom-borderp{
+    border:1px solid;
+    border-color: var(--primary-pink);
+    border-radius: 16px;
+}
